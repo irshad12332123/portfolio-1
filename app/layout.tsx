@@ -1,5 +1,6 @@
-import Link from "next/link";
 import "./globals.css";
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export const metadata = {
   title: "My Portfolio",
@@ -14,21 +15,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <nav style={{ padding: "1rem", borderBottom: "1px solid #ccc" }}>
-          <Link href="/">Home</Link> |<Link href="/about">About</Link> |
-          <Link href="/projects">Projects</Link> |
-          <Link href="/contact">Contact</Link>
-        </nav>
-        <main style={{ padding: "1rem" }}>{children}</main>
-        <footer
-          style={{
-            padding: "1rem",
-            borderTop: "1px solid #ccc",
-            textAlign: "center",
-          }}
-        >
-          © 2025 [Your Name]
-        </footer>
+        <Header /> 
+        
+        <main className="p-4 min-h-screen">
+          {children}
+        </main>
+
+        <Footer /> 
       </body>
     </html>
   );
