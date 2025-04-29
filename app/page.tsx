@@ -11,7 +11,7 @@ export default function HomePage() {
         transition={{ duration: 0.6 }}
         className="text-5xl md:text-6xl font-extrabold text-gray-900 text-center"
       >
-        Hi, I'm <span className="text-blue-600">[Your Name]</span>
+        Hi, I am <span className="text-blue-600">[Your Name]</span>
       </motion.h1>
 
       <motion.p

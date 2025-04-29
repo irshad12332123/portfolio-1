@@ -4,7 +4,7 @@ export default function AboutPage() {
       <h1 className="text-4xl font-bold mb-4 text-center">About Me</h1>
 
       <p className="text-lg text-gray-700 mb-6 text-center">
-        Hello! I'm [Your Name], a passionate web developer with a love for creating beautiful, functional, and user-friendly websites.
+        Hello! I am [Your Name], a passionate web developer with a love for creating beautiful, functional, and user-friendly websites.
       </p>
 
       <div className="space-y-6">
@@ -25,7 +25,7 @@ export default function AboutPage() {
         </p>
 
         <p>
-          Feel free to check out my <a href="/projects" className="text-blue-500 hover:underline">Projects</a> or <a href="/contact" className="text-blue-500 hover:underline">Contact</a> me if you'd like to collaborate!
+          Feel free to check out my <a href="/projects" className="text-blue-500 hover:underline">Projects</a> or <a href="/contact" className="text-blue-500 hover:underline">Contact</a> me if you had like to collaborate!
         </p>
       </div>
     </section>
