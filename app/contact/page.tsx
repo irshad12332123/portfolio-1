@@ -16,7 +16,7 @@ export default function ContactPage() {
         <div className="flex items-center gap-4">
           <span className="text-2xl">📧</span>
           <a href="mailto:yourname@example.com" className="text-blue-600 hover:underline text-lg">
-            yourname@example.com
+            alidanish@gmail.com
           </a>
         </div>
 

@@ -18,7 +18,7 @@ export default function Header() {
       {/* Logo */}
       <div className="flex items-center space-x-2">
         <Image src="/user.png" alt="Logo" width={40} height={40} />
-        <span className="font-bold text-xl tracking-wide"> [Your Name] Portfolio</span>
+        <span className="font-bold text-xl tracking-wide"> Irshad</span>
       </div>
 
       {/* Navigation Links */}

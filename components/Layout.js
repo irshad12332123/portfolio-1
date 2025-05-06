@@ -10,7 +10,7 @@ export default function Layout({ children }) {
         <Link href="/contact">Contact</Link>
       </nav>
       <main>{children}</main>
-      <footer>© 2025 [Your Name]</footer>
+      <footer>© 2025 Md Irshad</footer>
     </>
   );
 }

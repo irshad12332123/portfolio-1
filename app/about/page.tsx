@@ -4,9 +4,8 @@ export default function AboutPage() {
       <h1 className="text-4xl font-bold mb-4 text-center">About Me</h1>
 
       <p className="text-lg text-gray-700 mb-6 text-center">
-        Hello! I am [Your Name], a passionate web developer with a love for creating beautiful, functional, and user-friendly websites.
+        Hello! I am Md Irshad, a passionate web developer with a love for creating beautiful, functional, and user-friendly websites.
       </p>
-
       <div className="space-y-6">
         <p>
           I specialize in frontend technologies like <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and modern frameworks such as <strong>React.js</strong> and <strong>Next.js</strong>. My goal is always to build responsive, high-performance web applications that provide excellent user experiences.
